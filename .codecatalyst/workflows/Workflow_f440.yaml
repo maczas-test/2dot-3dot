@@ -34,7 +34,7 @@ Actions:
       Steps:
         - Run: ls
         - Run: cd artifacts
-        - Run: ls
+        - Run: ls -la
       Container:
         Registry: CODECATALYST
         Image: CodeCatalystLinuxLambda_x86_64:2024_03
